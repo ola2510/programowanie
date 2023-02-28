@@ -27,10 +27,15 @@ public class Segment {
     
     public double getdistance()
     {
-        double result = Math.sqrt(Math.pow(p1.x-p2.x,2)+ Math.pow(p1.y-p2.y,2));
+        double result = Math.sqrt(Math.pow((p1.x-p2.x)2)+ Math.pow((p1.y-p2.y)2));
         return result;
         
-    }    
-    
+    }
+
+    public String getSvg()
+    {
+       // String result = String.format(Locale.ENGLISH)
+    }
+
     
 }
